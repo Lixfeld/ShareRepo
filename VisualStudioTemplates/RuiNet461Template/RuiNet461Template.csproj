@@ -1,0 +1,10 @@
+﻿<Project Sdk="MSBuild.Sdk.Extras/1.6.68">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net461</TargetFramework>
+    <ExtrasEnableWpfProjectSetup>true</ExtrasEnableWpfProjectSetup>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="ReactiveUI.WPF" Version="11.2.1" />
+  </ItemGroup>
+</Project>
