@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>ShouldSerializeProperty method</Title>
+			<Shortcut>shouldserialize</Shortcut>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>propertyName</ID>
+					<Default>MyProperty</Default>
+					<ToolTip>Name of property</ToolTip>
+				</Literal>
+			</Declarations>
+			<Code Language="CSharp"><![CDATA[public bool ShouldSerialize$propertyName$() => true;]]></Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

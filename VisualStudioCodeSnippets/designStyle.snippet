@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>DesignStyle in XAML</Title>
+			<Shortcut>designStyle</Shortcut>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>color</ID>
+					<Default>LightGray</Default>
+				</Literal>
+				<Literal Editable="false">
+					<ID>control</ID>
+					<Default>UserControl</Default>
+					<ToolTip>UserControl</ToolTip>
+				</Literal>
+			</Declarations>
+			<Code Language="XAML"><![CDATA[    <d:DesignerProperties.DesignStyle>
+        <Style TargetType="$control$">
+            <Style.Setters>
+                <Setter Property="Background" Value="$color$" />
+            </Style.Setters>
+        </Style>
+    </d:DesignerProperties.DesignStyle>]]></Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>
