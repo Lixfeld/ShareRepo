@@ -1,0 +1,5 @@
+<Application.Resources>
+    <DataTemplate x:Key="TextTemplate">
+        <TextBlock Text="{Binding}"/>
+    </DataTemplate>
+</Application.Resources>

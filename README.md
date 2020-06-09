@@ -9,3 +9,6 @@
 - Simple ReactiveUI .NET 4.6.1
 ### WPF (Windows Presentation Foundation)
 - ViewModelBase
+- ComboBox TextTemplate
+- Notes
+
