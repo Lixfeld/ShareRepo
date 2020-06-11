@@ -10,5 +10,8 @@
 ### WPF (Windows Presentation Foundation)
 - ViewModelBase
 - ComboBox TextTemplate
-- Notes
+- Bindings
+___
+### Notes
+**Application directory:** System.AppDomain.CurrentDomain.BaseDirectory
 
