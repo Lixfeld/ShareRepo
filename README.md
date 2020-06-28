@@ -11,6 +11,7 @@
 - ViewModelBase
 - ComboBox TextTemplate
 - Bindings
+- OpenFileDialogExtension
 ___
 ### Notes
 **Application directory:** System.AppDomain.CurrentDomain.BaseDirectory
