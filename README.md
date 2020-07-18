@@ -2,11 +2,12 @@
 ### AutoHotkey
 - New template script
 - Search online script
-### VisualStudioCodeSnippets
+### VisualStudio
+- Simple ReactiveUI .NET 4.6.1
+- Useful Extensions
+### VisualStudio CodeSnippets
 - C#/XAML
 - ReactiveUI
-### VisualStudioTemplates
-- Simple ReactiveUI .NET 4.6.1
 ### WPF (Windows Presentation Foundation)
 - ViewModelBase
 - ComboBox TextTemplate
