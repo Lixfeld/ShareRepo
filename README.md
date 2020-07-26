@@ -13,6 +13,7 @@
 - ComboBox TextTemplate
 - Bindings
 - OpenFileDialogExtension
+- EnumHelper
 ___
 ### Notes
 **Application directory:** System.AppDomain.CurrentDomain.BaseDirectory
