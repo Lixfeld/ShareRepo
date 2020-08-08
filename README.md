@@ -5,13 +5,14 @@
 ### VisualStudio
 - Simple ReactiveUI .NET 4.6.1
 - Useful Extensions
-### VisualStudio CodeSnippets
+#### CodeSnippets
 - C#/XAML
 - ReactiveUI
 ### WPF (Windows Presentation Foundation)
 - ViewModelBase
 - ComboBox TextTemplate
 - Bindings
+- OpenFolderDialog
 - OpenFileDialogExtension
 - EnumHelper
 ___
