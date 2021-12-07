@@ -9,8 +9,8 @@
 - C#/XAML
 - ReactiveUI
 #### Configs
-- CodeMaid ([Documentation](https://www.codemaid.net/documentation/))
-- NLog ([Documentation](https://github.com/NLog/NLog/wiki/Configuration-file))
+- CodeMaid ([Documentation][1])
+- NLog ([Documentation][2])
 ### WPF (Windows Presentation Foundation)
 - ViewModelBase
 - ComboBox TextTemplate
@@ -19,6 +19,28 @@
 - OpenFileDialogExtension
 - EnumHelper
 ___
+### Useful Open Source .NET Projects:
+- [CsvHelper][3]  
+- [Entity Framework Core][4]  
+- [FluentValidation][5]  
+- [Humanizer][6]  
+- [Json.NET][7]  
+- [linq2db][8]  
+- [MoreLINQ][9]  
+- [ReactiveUI][10]  
+- [xUnit.net][11]  
+___
 ### Notes
 **Application directory:** System.AppDomain.CurrentDomain.BaseDirectory
 
+[1]: https://www.codemaid.net/documentation/ 
+[2]: https://github.com/NLog/NLog/wiki/Configuration-file 
+[3]: https://github.com/JoshClose/CsvHelper
+[4]: https://github.com/dotnet/efcore
+[5]: https://github.com/fluentvalidation/fluentvalidation
+[6]: https://github.com/Humanizr/Humanizer
+[7]: https://github.com/JamesNK/Newtonsoft.Json
+[8]: https://github.com/linq2db/linq2db
+[9]: https://github.com/morelinq/MoreLINQ
+[10]: https://github.com/reactiveui/ReactiveUI
+[11]: https://github.com/xunit/xunit

@@ -1,7 +1,8 @@
 ## Useful Visual Studio Extensions:
 ### General:
 [Subword Navigation][1]  
-[Microsoft Visual Studio Installer Projects][2] (Removed in VS2017)
+[Microsoft Visual Studio Installer Projects][2] (Removed in VS2017)  
+[Solution Error Visualizer][10]
 
 ### Colors/Highlighting:
 [Enhanced Syntax Highlighting][3] (Features included in VS2019)  
@@ -25,3 +26,4 @@
 [7]: https://marketplace.visualstudio.com/items?itemName=DannOh.XamlFormatter
 [8]: https://marketplace.visualstudio.com/items?itemName=SteveCadwallader.CodeMaid
 [9]: https://marketplace.visualstudio.com/items?itemName=NicoVermeir.XAMLStyler
+[10]: https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.SolutionErrorVisualizer
