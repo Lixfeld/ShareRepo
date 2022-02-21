@@ -4,7 +4,7 @@
 - Search online script
 ### VisualStudio
 - Simple ReactiveUI .NET 4.6.1 template
-- Useful Extensions
+- [Useful Extensions][21]
 #### CodeSnippets
 - C#/XAML
 - ReactiveUI
@@ -14,7 +14,7 @@
 ### WPF (Windows Presentation Foundation)
 - ViewModelBase
 - ComboBox TextTemplate
-- Bindings
+- [Bindings][22]
 - OpenFolderDialog
 - OpenFileDialogExtension
 - EnumHelper
@@ -48,4 +48,7 @@ ___
 [10]: https://github.com/reactiveui/ReactiveUI
 [11]: https://github.com/xunit/xunit
 [12]: https://github.com/aaubry/YamlDotNet
+
 [20]: https://github.com/davidfowl/AspNetCoreDiagnosticScenarios/blob/master/AsyncGuidance.md#table-of-contents
+[21]: https://github.com/Lixfeld/ShareRepo/blob/master/VisualStudio/Extensions.md#useful-visual-studio-extensions
+[22]: https://github.com/Lixfeld/ShareRepo/blob/master/WPF/Bindings.md#bindings
