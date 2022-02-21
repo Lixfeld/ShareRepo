@@ -24,14 +24,17 @@ ___
 - [Entity Framework Core][4]  
 - [FluentValidation][5]  
 - [Humanizer][6]  
-- [Json.NET][7]  
+- [Json.NET][7] (*data interchange*)  
 - [linq2db][8]  
 - [MoreLINQ][9]  
 - [ReactiveUI][10]  
 - [xUnit.net][11]  
+- [YamlDotNet][12] (*configuration*)  
 ___
 ### Notes
-**Application directory:** System.AppDomain.CurrentDomain.BaseDirectory
+**Application directory:** System.AppDomain.CurrentDomain.BaseDirectory  
+
+**Asynchronous Programming:** [Guidance][20]  
 
 [1]: https://www.codemaid.net/documentation/ 
 [2]: https://github.com/NLog/NLog/wiki/Configuration-file 
@@ -44,3 +47,5 @@ ___
 [9]: https://github.com/morelinq/MoreLINQ
 [10]: https://github.com/reactiveui/ReactiveUI
 [11]: https://github.com/xunit/xunit
+[12]: https://github.com/aaubry/YamlDotNet
+[20]: https://github.com/davidfowl/AspNetCoreDiagnosticScenarios/blob/master/AsyncGuidance.md#table-of-contents
