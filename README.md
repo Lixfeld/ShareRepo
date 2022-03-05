@@ -3,6 +3,7 @@
 - New template script
 - Search online script
 ### VisualStudio
+- Console App Template (old)
 - Simple ReactiveUI .NET 4.6.1 template
 - [Useful Extensions][21]
 #### CodeSnippets
