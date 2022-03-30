@@ -21,6 +21,7 @@
 - EnumHelper
 ___
 ### Useful Open Source .NET Projects:
+- [commandlineparser][13]  
 - [CsvHelper][3]  
 - [Entity Framework Core][4]  
 - [FluentValidation][5]  
@@ -49,6 +50,7 @@ ___
 [10]: https://github.com/reactiveui/ReactiveUI
 [11]: https://github.com/xunit/xunit
 [12]: https://github.com/aaubry/YamlDotNet
+[13]: https://github.com/commandlineparser/commandline
 
 [20]: https://github.com/davidfowl/AspNetCoreDiagnosticScenarios/blob/master/AsyncGuidance.md#table-of-contents
 [21]: https://github.com/Lixfeld/ShareRepo/blob/master/VisualStudio/Extensions.md#useful-visual-studio-extensions
