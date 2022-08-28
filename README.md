@@ -24,7 +24,9 @@ ___
 - [commandlineparser][13]  
 - [CsvHelper][3]  
 - [Entity Framework Core][4]  
+- [ExtendedXmlSerializer][14]  
 - [FluentValidation][5]  
+- [Flurl][15]  
 - [Humanizer][6]  
 - [Json.NET][7] (*data interchange*)  
 - [linq2db][8]  
@@ -32,6 +34,7 @@ ___
 - [ReactiveUI][10]  
 - [xUnit.net][11]  
 - [YamlDotNet][12] (*configuration*)  
+
 ___
 ### Notes
 **Application directory:** System.AppDomain.CurrentDomain.BaseDirectory  
@@ -51,6 +54,8 @@ ___
 [11]: https://github.com/xunit/xunit
 [12]: https://github.com/aaubry/YamlDotNet
 [13]: https://github.com/commandlineparser/commandline
+[14]: https://github.com/ExtendedXmlSerializer/home
+[15]: https://github.com/tmenier/Flurl
 
 [20]: https://github.com/davidfowl/AspNetCoreDiagnosticScenarios/blob/master/AsyncGuidance.md#table-of-contents
 [21]: https://github.com/Lixfeld/ShareRepo/blob/master/VisualStudio/Extensions.md#useful-visual-studio-extensions
