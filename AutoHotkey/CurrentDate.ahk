@@ -10,7 +10,7 @@ SendInput %todayFormatted%
 return
 
 ::yesterday::
-now = %a_now%
+yesterday = %a_now%
 yesterday += -1, days
 FormatTime, yesterdayFormatted, %yesterday%, dd.MM.yyyy
 SendInput %yesterdayFormatted%

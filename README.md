@@ -2,6 +2,7 @@
 ### AutoHotkey
 - New template script
 - Search online script
+- Current date script
 ### VisualStudio
 - Console App Template (old)
 - Simple ReactiveUI .NET 4.6.1 template
