@@ -24,13 +24,14 @@ ___
 - [commandlineparser][13]  
 - [CsvHelper][3]  
 - [Entity Framework Core][4]  
-- [ExtendedXmlSerializer][14]  
+- [ExtendedXmlSerializer][14] (readonly configuration)  
 - [FluentValidation][5]  
 - [Flurl][15]  
 - [Humanizer][6]  
 - [Json.NET][7] (*data interchange*)  
 - [linq2db][8]  
 - [MoreLINQ][9]  
+- [PropertyChanged.Fody][16]  
 - [ReactiveUI][10]  
 - [xUnit.net][11]  
 - [YamlDotNet][12] (*configuration*)  
@@ -56,6 +57,7 @@ ___
 [13]: https://github.com/commandlineparser/commandline
 [14]: https://github.com/ExtendedXmlSerializer/home
 [15]: https://github.com/tmenier/Flurl
+[16]: https://github.com/Fody/PropertyChanged
 
 [20]: https://github.com/davidfowl/AspNetCoreDiagnosticScenarios/blob/master/AsyncGuidance.md#table-of-contents
 [21]: https://github.com/Lixfeld/ShareRepo/blob/master/VisualStudio/Extensions.md#useful-visual-studio-extensions

@@ -11,7 +11,8 @@
 ### Formatting (Simple):
 [Format document on Save][5]  
 [Format All Files][6]  
-[XamlFormatter][7]
+[XamlFormatter][7] (Support VS2019)  
+[Format XAML 2022][11] (my own extension)
 
 ### Formatting (Advanced):
 [CodeMaid][8]  
@@ -27,3 +28,4 @@
 [8]: https://marketplace.visualstudio.com/items?itemName=SteveCadwallader.CodeMaid
 [9]: https://marketplace.visualstudio.com/items?itemName=NicoVermeir.XAMLStyler
 [10]: https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.SolutionErrorVisualizer
+[11]: https://marketplace.visualstudio.com/items?itemName=Lixfeld.FormatXAML
