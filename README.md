@@ -1,8 +1,8 @@
 ## Share Repository 
 ### AutoHotkey
+- Current date script
 - New template script
 - Search online script
-- Current date script
 ### VisualStudio
 - Console App Template (old)
 - Simple ReactiveUI .NET 4.6.1 template
@@ -14,12 +14,11 @@
 - CodeMaid ([Documentation][1])
 - NLog ([Documentation][2])
 ### WPF (Windows Presentation Foundation)
-- ViewModelBase
-- ComboBox TextTemplate
 - [Bindings][22]
-- OpenFolderDialog
-- OpenFileDialogExtension
+- ComboBox TextTemplate
 - EnumHelper
+- OpenFileDialogExtension
+- OpenFolderDialog
 ___
 ### Useful Open Source .NET Projects:
 - [commandlineparser][13]  
