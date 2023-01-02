@@ -24,17 +24,12 @@ ___
 - [commandlineparser][13]  
 - [CsvHelper][3]  
 - [Entity Framework Core][4]  
-- [ExtendedXmlSerializer][14] (readonly configuration)  
-- [FluentValidation][5]  
 - [Flurl][15]  
-- [Humanizer][6]  
-- [Json.NET][7] (*data interchange*)  
-- [linq2db][8]  
+- [Json.NET][7]
 - [MoreLINQ][9]  
 - [PropertyChanged.Fody][16]  
 - [ReactiveUI][10]  
 - [xUnit.net][11]  
-- [YamlDotNet][12] (*configuration*)  
 
 ___
 ### Notes
@@ -46,16 +41,11 @@ ___
 [2]: https://github.com/NLog/NLog/wiki/Configuration-file 
 [3]: https://github.com/JoshClose/CsvHelper
 [4]: https://github.com/dotnet/efcore
-[5]: https://github.com/fluentvalidation/fluentvalidation
-[6]: https://github.com/Humanizr/Humanizer
 [7]: https://github.com/JamesNK/Newtonsoft.Json
-[8]: https://github.com/linq2db/linq2db
 [9]: https://github.com/morelinq/MoreLINQ
 [10]: https://github.com/reactiveui/ReactiveUI
 [11]: https://github.com/xunit/xunit
-[12]: https://github.com/aaubry/YamlDotNet
 [13]: https://github.com/commandlineparser/commandline
-[14]: https://github.com/ExtendedXmlSerializer/home
 [15]: https://github.com/tmenier/Flurl
 [16]: https://github.com/Fody/PropertyChanged
 
