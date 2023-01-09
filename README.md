@@ -1,26 +1,26 @@
-## Share Repository 
-### AutoHotkey
+# Share Repository 
+## AutoHotkey
 - Current date script
 - New template script
 - Search online script
-### VisualStudio
+## VisualStudio
 - Console App Template (old)
 - Simple ReactiveUI .NET 4.6.1 template
 - [Useful Extensions][21]
-#### CodeSnippets
+### CodeSnippets
 - C#/XAML
 - ReactiveUI
-#### Configs
+### Configs
 - CodeMaid ([Documentation][1])
 - NLog ([Documentation][2])
-### WPF (Windows Presentation Foundation)
+## WPF (Windows Presentation Foundation)
 - [Bindings][22]
 - ComboBox TextTemplate
 - EnumHelper
 - OpenFileDialogExtension
 - OpenFolderDialog
 ___
-### Useful Open Source .NET Projects:
+## Useful Open Source .NET Projects:
 - [commandlineparser][13]  
 - [CsvHelper][3]  
 - [Entity Framework Core][4]  
@@ -32,7 +32,7 @@ ___
 - [xUnit.net][11]  
 
 ___
-### Notes
+## Notes
 **Application directory:** System.AppDomain.CurrentDomain.BaseDirectory  
 
 **Asynchronous Programming:** [Guidance][20]  
