@@ -32,11 +32,23 @@ ___
 - [xUnit.net][11]  
 
 ___
+## [C# Collection Types][30]
+
+### Passing collections into methods (Arguments)
+- Use `IEnumerable<T>` where possible
+- Use `IReadOnlyCollection<T>` or `IReadOnlyList` for in-memory lists (e.g. multiple iterations)
+
+### Returning collections from methods
+- For in-memory lists use `IReadOnlyList` or `IReadOnlyCollection<T>`
+    - Use the `AsReadOnly()` extension method for the `ReadOnlyCollection<T>` wrapper
+- To allow partial enumerations use `IEnumerable<T>`
+
 ## Notes
 **Application directory:** System.AppDomain.CurrentDomain.BaseDirectory  
 
 **Asynchronous Programming:** [Guidance][20]  
 
+___
 [1]: https://www.codemaid.net/documentation/ 
 [2]: https://github.com/NLog/NLog/wiki/Configuration-file 
 [3]: https://github.com/JoshClose/CsvHelper
@@ -52,3 +64,5 @@ ___
 [20]: https://github.com/davidfowl/AspNetCoreDiagnosticScenarios/blob/master/AsyncGuidance.md#table-of-contents
 [21]: https://github.com/Lixfeld/ShareRepo/blob/master/VisualStudio/Extensions.md#useful-visual-studio-extensions
 [22]: https://github.com/Lixfeld/ShareRepo/blob/master/WPF/Bindings.md#bindings
+
+[30]:https://markheath.net/post/passing-collections-csharp
