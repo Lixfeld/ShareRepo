@@ -27,6 +27,7 @@
 - EnumHelper
 - OpenFileDialogExtension
 - OpenFolderDialog
+- XmlSerializerExtensions
 
 ___
 ## Useful Open Source .NET Projects:
