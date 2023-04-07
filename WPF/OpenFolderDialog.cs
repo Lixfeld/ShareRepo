@@ -1,37 +1,47 @@
 ﻿using Microsoft.WindowsAPICodePack.Dialogs;
+using System;
 using System.Windows;
 
 namespace PROJECT.Dialogs
 {
     public class OpenFolderDialog
     {
-        // WindowsAPICodePack-Shell: https://www.nuget.org/packages/WindowsAPICodePack-Shell/
-        private readonly CommonOpenFileDialog openFolderDialog;
         public string FolderName { get; private set; }
+        public string InitialDirectory { get; set; }
 
-        public OpenFolderDialog()
+        public bool? ShowDialog()
         {
-            openFolderDialog = new CommonOpenFileDialog() { IsFolderPicker = true };
+            return ShowDialogInternal(x => x.ShowDialog());
         }
 
         public bool? ShowDialog(Window owner)
         {
-            CommonFileDialogResult dialogResult;
-            if (owner != null)
-                dialogResult = openFolderDialog.ShowDialog(owner);
-            else
-                dialogResult = openFolderDialog.ShowDialog();
+            if (owner == null)
+                throw new ArgumentNullException(nameof(owner));
 
-            switch (dialogResult)
+            return ShowDialogInternal(x => x.ShowDialog(owner));
+        }
+
+        private bool? ShowDialogInternal(Func<CommonOpenFileDialog, CommonFileDialogResult> func)
+        {
+            // WindowsAPICodePack-Shell: https://www.nuget.org/packages/WindowsAPICodePack-Shell/
+            using (CommonOpenFileDialog openFolderDialog = new CommonOpenFileDialog())
             {
-                case CommonFileDialogResult.Ok:
-                    FolderName = openFolderDialog.FileName;
-                    return true;
-                case CommonFileDialogResult.Cancel:
-                    return false;
-                case CommonFileDialogResult.None:
-                default:
-                    return null;
+                openFolderDialog.IsFolderPicker = true;
+                openFolderDialog.InitialDirectory = InitialDirectory;
+
+                CommonFileDialogResult dialogResult = func(openFolderDialog);
+                switch (dialogResult)
+                {
+                    case CommonFileDialogResult.Ok:
+                        FolderName = openFolderDialog.FileName;
+                        return true;
+                    case CommonFileDialogResult.Cancel:
+                        return false;
+                    case CommonFileDialogResult.None:
+                    default:
+                        return null;
+                }
             }
         }
     }
