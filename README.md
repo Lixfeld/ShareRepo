@@ -1,24 +1,33 @@
 # Share Repository 
+
 ## AutoHotkey
 - Current date script
 - New template script
 - Search online script
+
+## Notes
+- General
+- C# Collection Types
+
 ## VisualStudio
 - Console App Template (old)
-- Simple ReactiveUI .NET 4.6.1 template
 - [Useful Extensions][21]
+
 ### CodeSnippets
 - C#/XAML
 - ReactiveUI
+
 ### Configs
 - CodeMaid ([Documentation][1])
 - NLog ([Documentation][2])
+
 ## WPF (Windows Presentation Foundation)
 - [Bindings][22]
 - ComboBox TextTemplate
 - EnumHelper
 - OpenFileDialogExtension
 - OpenFolderDialog
+
 ___
 ## Useful Open Source .NET Projects:
 - [commandlineparser][13]  
@@ -31,24 +40,7 @@ ___
 - [ReactiveUI][10]  
 - [xUnit.net][11]  
 
-___
-## [C# Collection Types][30]
 
-### Passing collections into methods (Arguments)
-- Use `IEnumerable<T>` where possible
-- Use `IReadOnlyCollection<T>` or `IReadOnlyList` for in-memory lists (e.g. multiple iterations)
-
-### Returning collections from methods
-- For in-memory lists use `IReadOnlyList` or `IReadOnlyCollection<T>`
-    - Use the `AsReadOnly()` extension method for the `ReadOnlyCollection<T>` wrapper
-- To allow partial enumerations use `IEnumerable<T>`
-
-## Notes
-**Application directory:** System.AppDomain.CurrentDomain.BaseDirectory  
-
-**Asynchronous Programming:** [Guidance][20]  
-
-___
 [1]: https://www.codemaid.net/documentation/ 
 [2]: https://github.com/NLog/NLog/wiki/Configuration-file 
 [3]: https://github.com/JoshClose/CsvHelper
@@ -61,8 +53,5 @@ ___
 [15]: https://github.com/tmenier/Flurl
 [16]: https://github.com/Fody/PropertyChanged
 
-[20]: https://github.com/davidfowl/AspNetCoreDiagnosticScenarios/blob/master/AsyncGuidance.md#table-of-contents
 [21]: https://github.com/Lixfeld/ShareRepo/blob/master/VisualStudio/Extensions.md#useful-visual-studio-extensions
 [22]: https://github.com/Lixfeld/ShareRepo/blob/master/WPF/Bindings.md#bindings
-
-[30]:https://markheath.net/post/passing-collections-csharp
