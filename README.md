@@ -1,33 +1,31 @@
 # Share Repository 
 
-## AutoHotkey
-- Current date script
-- New template script
-- Search online script
+## AutoHotkey scripts
+- Active window template
+- Current date
+- Web search
 
-## Notes
-- General
-- C# Collection Types
+## C#
+- General Notes
+- Collection Types
+- EnumHelper
+- NLog.config ([Documentation][2])
+- OpenFileDialogExtension
+- OpenFolderDialog
+- XmlSerializerExtensions
+
+### WPF (Windows Presentation Foundation)
+- [Bindings][22]
+- ComboBox TextTemplate
 
 ## VisualStudio
+- CodeMaid.config ([Documentation][1])
 - Console App Template (old)
 - [Useful Extensions][21]
 
 ### CodeSnippets
 - C#/XAML
 - ReactiveUI
-
-### Configs
-- CodeMaid ([Documentation][1])
-- NLog ([Documentation][2])
-
-## WPF (Windows Presentation Foundation)
-- [Bindings][22]
-- ComboBox TextTemplate
-- EnumHelper
-- OpenFileDialogExtension
-- OpenFolderDialog
-- XmlSerializerExtensions
 
 ___
 ## Useful Open Source .NET Projects:
