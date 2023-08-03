@@ -16,6 +16,7 @@
 
 ### WPF (Windows Presentation Foundation)
 - [Bindings][22]
+- ComboBox Dictionary Binding
 - ComboBox TextTemplate
 
 ## VisualStudio
@@ -28,7 +29,7 @@
 - ReactiveUI
 
 ___
-## Useful Open Source .NET Projects:
+## Useful Open Source .NET Projects
 - [commandlineparser][13]  
 - [CsvHelper][3]  
 - [Entity Framework Core][4]  
