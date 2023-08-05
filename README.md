@@ -17,6 +17,7 @@
 ### WPF (Windows Presentation Foundation)
 - [Bindings][22]
 - ComboBox Dictionary Binding
+- ComboBox Extensions
 - ComboBox TextTemplate
 
 ## VisualStudio
